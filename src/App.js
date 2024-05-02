@@ -1,14 +1,14 @@
 import React from "react";
-import { Button } from "carbon-components-react";
 import "./styles.scss"; // Import your SCSS file
 
-function MyComponent() {
+import MyComponents from "./components/MyComponents";
+
+const App = () => {
   return (
     <div>
-      <Button>Click me</Button>
-      <h1>Hello, world!</h1>
+      <MyComponents />
     </div>
   );
-}
+};
 
-export default MyComponent;
+export default App;
